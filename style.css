@@ -1,10 +1,13 @@
 body {
     font-family: "Roboto", sans-serif;
+    margin: 0;
 }
 
 .header, .footer, .hero {
     background-color: #1F2937;
 }
+
+/* Header */
 
 header {
     font-weight: 900;
@@ -35,10 +38,14 @@ a:hover {
     color: hotpink;
 }
 
+/* Content */
+
 .content {
     display: flex;
     flex-direction: column;
 }
+
+/* 1st Block' */
 
 .hero {
     display: flex;
@@ -64,6 +71,7 @@ button {
     background-color: #3882F6;
 }
 
+/* 2nd Block' */
 
 .information {
     text-align: center;
@@ -84,12 +92,7 @@ button {
     align-items: center;
 }
 
-
-.container {
-    background-color: #3882F6
-}
-
-
+/* 3rd Block' */
 
 .quote {
     background-color: #E5E7EB;
@@ -111,9 +114,32 @@ button {
     text-align: right;
 }
 
-h2.information {
-    font-size: 36px;
-    color: #1F2937;
-    font-weight: 900;
+/* 4th Block' */
+
+.container {
+    background-color: #3882F6;
+    display: flex;
+    gap: 32px;
+    margin: 64px 128px 64px 128px;
+    padding: 16px 48px 16px 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 256px;
+    color: white;
 }
 
+.container button {
+    border: 1px solid white;
+}
+
+
+/* Footer */
+
+.footer {
+    display:flex;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 300;
+    color: white;
+
+}
