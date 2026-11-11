@@ -1,0 +1,119 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.header, .footer, .hero {
+    background-color: #1F2937;
+}
+
+header {
+    font-weight: 900;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 128px 0 128px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    display: flex;
+    padding: 64px 128px 64px 128px;
+    gap: 256px;
+    align-items: center;
+}
+
+.main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.secondary {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+button {
+    border: 1px solid #3882F6;
+    color: white;
+    background-color: #3882F6;
+}
+
+
+.information {
+    text-align: center;
+    padding: 64px 176px 16px 176px;
+}
+
+.title {
+    margin-bottom: 32px;
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.illus-container {
+    display: flex;
+    gap: 52px;
+    align-items: center;
+}
+
+
+.container {
+    background-color: #3882F6
+}
+
+
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 64px 176px 16px 176px;
+}
+
+#citation {
+    color: #1F2937;
+    font-weight: 300;
+    font-size: 36px;
+    font-style: italic;
+}
+
+#name {
+    color: #1F2937;
+    font-weight: 500;
+    font-size: 16px;
+    font-style: bold;
+    text-align: right;
+}
+
+h2.information {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+

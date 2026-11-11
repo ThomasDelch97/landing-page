@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Landing Page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="header">
@@ -15,34 +18,40 @@
             <li><a href="file:///home/td/repos/landing-page/index.html">header link two</a></li>
             <li><a href="file:///home/td/repos/landing-page/index.html">header link three</a></li>
         </ul>
-    </div>
-
+    
+    </div>    
+    
     <div class="content">
-        <div class="block_one">
-            <h1>This Website is awesome</h1>
-            <p>This website has smaller subtext that goes here under the main title. It's smaller font and the color is lower contrast.</p>
-            <button>Sign Up</button>
-            <img alt="this is a placeholder for an image">
+        <div class="hero">
+            <div class="left">
+                <p class="main">This Website is awesome</p>
+                <p class="secondary">This website has smaller subtext that goes here under the main title. It's smaller font and the color is lower contrast.</p>
+                <button>Sign Up</button>
+            </div>
+            <div class="right"><img alt="this is a placeholder for an image"></div>
         </div>
 
-        <div class="block_two">
-            <h2>Some random information</h2>
-            <img>
-            <p>this is some subtext under an illustration or an image</p>
-            <img>
-            <p>this is some subtext under an illustration or an image</p>
-            <img>
-            <p>this is some subtext under an illustration or an image</p>
-            <img>
-            <p>this is some subtext under an illustration or an image</p>
+        <div class="information">
+            <div class="title">Some random information</div>
+
+            <div class="illus-container">
+                <img>
+                <p>this is some subtext under an illustration or an image</p>
+                <img>
+                <p>this is some subtext under an illustration or an image</p>
+                <img>
+                <p>this is some subtext under an illustration or an image</p>
+                <img>
+                <p>this is some subtext under an illustration or an image</p>
+            </div>
         </div>
 
-        <div class="block_three">
-            <p>This is an inspiring quote or testimoniale from a customer. Maybe it's just filling up space or maybe people will read it. Who knows? All I know is that it looks nice.</p>
-            <p>Thor, God of Thunder</p>
+        <div class="quote">
+            <p id="citation">This is an inspiring quote or testimoniale from a customer. Maybe it's just filling up space or maybe people will read it. Who knows? All I know is that it looks nice.</p>
+            <p id="name">-Thor, God of Thunder</p>
         </div>
-        <div class="block_four">
-            <div class="contianer">
+        <div class="call-action">
+            <div class="container">
                 <h2>Call to action! It's time!</h2>
                 <p>Sign up for our product by clicking the button right over there!</p>
                 <button>Sign up</button>
@@ -50,9 +59,9 @@
 
         </div>
     </div>
-        <p>Copyright @ The Odin Project 2021</p>
+        
     <div class="footer">
-
+        <p>Copyright @ The Odin Project 2021</p>
     </div>
 </body>
 </html>
