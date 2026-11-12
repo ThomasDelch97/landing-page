@@ -25,13 +25,13 @@ header {
 ul {
     display: flex;
     list-style-type: none;
-    gap: 8px;
+    gap: 16px;
 }
 
 a {
     text-decoration: none;
     color: #E5E7EB;
-    font-size: 18px;
+    font-size: 12px;
 }
 
 a:hover {
@@ -69,6 +69,8 @@ button {
     border: 1px solid #3882F6;
     color: white;
     background-color: #3882F6;
+    border-radius: 5px;
+    font-size: 18px;
 }
 
 /* 2nd Block' */
@@ -89,7 +91,18 @@ button {
 .illus-container {
     display: flex;
     gap: 52px;
+    justify-content: center;
     align-items: center;
+}
+
+.info {
+    max-width: 200px;
+}
+
+img {
+    max-width: 200px;
+    flex-shrink: 1;
+    border-radius: 25px;
 }
 
 /* 3rd Block' */
@@ -121,15 +134,17 @@ button {
     display: flex;
     gap: 32px;
     margin: 64px 128px 64px 128px;
-    padding: 16px 48px 16px 48px;
+    padding: auto;
     justify-content: center;
     align-items: center;
     gap: 256px;
     color: white;
+    border-radius: 5px;
 }
 
 .container button {
     border: 1px solid white;
+    border-radius: 5px;
 }
 
 
